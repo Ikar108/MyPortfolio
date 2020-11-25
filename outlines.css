@@ -1,0 +1,237 @@
+*{
+  margin:0;
+  padding:0;
+}
+header{
+  position: fixed;
+  width:40%;
+  z-index: 5;
+}
+header nav{
+width:100%;
+flex-wrap: wrap;
+box-shadow: inset 0px -7px 10px #d58300;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left:5%;
+padding-right:10%;
+padding-top: 2%;
+padding-bottom: 2%;
+align-items: center;
+font-size: 20px;
+color:blue;
+font-family: monospace;
+border-radius: 0px 0px 240px 240px;
+background-color: #ffbc40;
+border-bottom: 5px solid #d58300;
+border-left: 5px solid #d58300;
+}
+header nav a{
+align-self: center;
+padding-left:15%;
+padding-right:15%;
+}
+header nav p{
+  padding:1%;
+}
+.header a:hover{
+  text-decoration: none;
+}
+
+
+.startPage{
+  position: relative;
+  top: 0px;
+  z-index: 1;
+  background-image: url("https://picjumbo.com/wp-content/uploads/sunset-home-office-working-with-laptop-on-the-garden_free_stock_photos_picjumbo_HNCK2557-2210x1474.jpg");
+  background-size:cover;
+  color:white;
+}
+
+.startPage aside{
+  padding-left:36%;
+  padding-top:32%;
+  padding-bottom: 15%;
+  text-shadow: 0px 0px 250px black;
+}
+.startPage aside h1{
+  font-size: 500%;
+}
+.startPage h4{
+    font-size: 150%;
+}
+
+.char-picture{
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: #300000;
+  color: orange;
+  padding:1%;
+  padding-bottom: 0;
+}
+
+
+
+.projects{
+  background-color: #300000;
+  color:#85a04a;
+}
+.projects ul{
+  display:flex;
+  justify-content: space-around;
+  padding:1%;
+  text-align: center;
+}
+.projects h2{
+  color:white;
+}
+.projects li{
+  box-shadow: 0 0 15px #85a04a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:13%;
+  margin:3%;
+  padding: 1%;
+  background-color: #300000;
+  border:1px solid #85a04a;
+  border-radius: 15px;
+   list-style-type: none;
+}
+
+.projects li a{
+  justify-content: center;
+  background-color: #300000;
+}
+.projects li aside a{
+  color:orange;
+  text-decoration: underline;
+}
+
+
+
+.adage{
+  text-shadow: 0 0 20px 3px black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12%;
+  padding-bottom: 25%;
+  font-size: 70px;
+  background-image: url("https://million-wallpapers.ru/wallpapers/6/54/367485105323710/vysokie-tatry.jpg");
+  background-size: cover;
+  color: rgb(128, 54, 0);
+  align-items: center;
+  justify-content: center;
+ font-family: comic;
+}
+.adage cite{
+  font-size: 25px;
+  padding-left: 35%;
+}
+
+.skills {
+  color: #300000;
+  background-size: cover;
+  background-image: url("https://pixnio.com/free-images/2017/02/17/2017-02-17-10-44-29.jpg");
+}
+.skills dl{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  padding: 3%;
+  flex-direction: row;
+  self-align: center;
+}
+
+.skills div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 0px 12px black;
+  width:250px;
+  height: 150px;
+  border-radius: 15px;
+  padding: 3% 5%;
+  margin:3%;
+  color: #800000;
+}
+.skills dd{
+  align-self: center;
+  justify-content: flex-start;
+  padding-left:15%;
+  color:#fbb570;
+}
+.skills a{
+  border-color: orange;
+}
+.skills a:hover{
+  text-decoration: none;
+}
+
+
+.code{
+  margin-top: -120px;
+  padding-top: 120px;
+  background-color: #300000;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #85a04a;
+}
+.code div{
+  padding-left: 10%;
+  padding-right: 20%;
+}
+
+.formula{
+  z-index: 1;
+  position:relative;
+  background-color: #300000;
+  color:orange;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+  font-family: monospace;
+  margin-bottom: -314px;
+}
+.formula div{
+    border: 5px solid #d58300;
+    padding:2%;
+
+}
+
+
+footer{
+  z-index: 5;
+  position: relative;
+}
+.contact{
+  box-shadow: outset 0px 7px 10px #d58300;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:13.3% 20% 0% 20%;
+  padding: 2% 5%;
+  align-items: center;
+  color:blue;
+  font-family: monospace;
+  border-radius: 240px 240px  0px 0px;
+  background-color: #ffbc40;
+  border: 5px solid #d58300;
+}
+.contact  p{
+  align-self: center;
+  padding: 1%;
+  font-size: 25px;
+}
+.contact a:hover{
+  text-decoration: none;
+}
